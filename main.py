@@ -68,7 +68,7 @@ def insert_new_data():
                                      db.Column('term_taxonomy_id', db.Integer(), default=0),
                                      db.Column('term_order', db.Integer(), default=0)
                                      )
-    #  ----- запускаю цикл який потрібно -----
+    #  ----- запускаю цикл який потрібно! -----
     # for item in select_old_data('jos_users'):
     #     query = db.insert(wp_users).values(
     #         user_login=item[2],
