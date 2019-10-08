@@ -1,0 +1,7 @@
+sqlalchemy
+pymysql
+pandas
+transliterate
+requests
+lxml
+bs4
